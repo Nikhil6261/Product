@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+
+        String name1 = "Asus vivobook";
+        String type1 = "laptop";
+        String p1ace1 ="brown table ";
+        int warranty1 = 2022;
+
+        String name2 = "Asus vivobook";
+        String type2 = "laptop";
+        String p1ace2 ="brown table ";
+        int warranty2 = 2022;
+    }
+}
