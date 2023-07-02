@@ -1,0 +1,50 @@
+public class Product {
+    private   String name;
+    private  String type;
+    private   String place;
+    private int warranty;
+
+    
+    //using constructor.
+ 
+    public Product(String name, String type, String p1ace, int warranty) {
+      this.name = name;
+      this.type = type;
+      this.place = p1ace;
+      this.warranty = warranty;
+    }
+
+ //using getter and setter to inilization private data.
+ 
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public String getType() {
+    return type;
+  }
+
+  public void setType(String type) {
+    this.type = type;
+  }
+
+  public String getP1ace() {
+    return place;
+  }
+
+  public void setP1ace(String p1ace) {
+    this.place = p1ace;
+  }
+
+  public int getWarranty() {
+    return warranty;
+  }
+
+  public void setWarranty(int warranty) {
+    this.warranty = warranty;
+  }
+}
