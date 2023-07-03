@@ -4,9 +4,8 @@ public class Product {
     private   String place;
     private int warranty;
 
-    
+
     //using constructor.
- 
     public Product(String name, String type, String p1ace, int warranty) {
       this.name = name;
       this.type = type;
@@ -15,7 +14,7 @@ public class Product {
     }
 
  //using getter and setter to inilization private data.
- 
+
   public String getName() {
     return name;
   }
@@ -47,4 +46,15 @@ public class Product {
   public void setWarranty(int warranty) {
     this.warranty = warranty;
   }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", type='" + type + '\'' +
+                ", place='" + place + '\'' +
+                ", warranty=" + warranty +
+                '}';
+    }
 }
+
